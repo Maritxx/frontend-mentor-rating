@@ -28,9 +28,9 @@ p {
 
 /*Rating Component Styling*/
 .rating-component__holder {
-	min-width: 325px;
+	max-width: 325px;
 	width: 100%;
-	padding: 25px;
+	padding: 16px 25.27px;
 	background-color: var(--bg-secondary);
 	border-radius: 20px;
 }
@@ -59,7 +59,11 @@ input[type="radio"] {
 	display: none;
 }
 
-label span {
+input[type="input"] {
+	display: none;
+}
+
+input[type="radio"] label span {
 	display: inline-block;
 	padding: 25px;
 	cursor: pointer;
@@ -69,12 +73,12 @@ label span {
 	color: var(--text-primary);
 }
 
-input[type="radio"]:checked span {
+input[type="radio"] label:checked span {
 	background-color: var(--button-primary);
 	color: var(--heading-primary);
 }
 
-input[type="radio"]:hover span {
+input[type="radio"] label:hover span {
 	background-color: var(--button-secondary);
 	color: var(--heading-primary);
 }
