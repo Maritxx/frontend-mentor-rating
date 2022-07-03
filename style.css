@@ -16,6 +16,7 @@ body {
 /*Font Styles*/
 h1 {
 	font-size: 1.5rem;
+	font-weight: 700;
 	color: var(--heading-primary);
 }
 
@@ -29,7 +30,7 @@ p {
 .rating-component__holder {
 	max-width: 375px;
 	width: 100%;
-	padding: 16px 25.27px;
+	padding: 25px;
 	background-color: var(--bg-secondary);
 	border-radius: 20px;
 }
@@ -45,8 +46,8 @@ p {
 
 .rating-component__content img {
 	background-color: var(--bg-tertiary);
-	margin-bottom: 40px;
-	padding: 25px;
+	margin-bottom: 30px;
+	padding: 15px;
 	border-radius: 50%;
 }
 
