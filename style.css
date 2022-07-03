@@ -65,12 +65,14 @@ input[type="input"] {
 
 input[type="radio"] + label span {
 	display: inline-block;
-	padding: 16px 25px;
+	padding: 15px;
 	cursor: pointer;
 	border-radius: 50%;
 	background-color: var(--bg-tertiary);
 	font-size: 1.25rem;
 	color: var(--text-primary);
+	max-width: 50px;
+	max-height: 50px;
 }
 
 input[type="radio"]:checked label span {
@@ -78,7 +80,17 @@ input[type="radio"]:checked label span {
 	color: var(--heading-primary);
 }
 
-input[type="radio"]:hover label span {
+input[type="radio"] label:hover span {
 	background-color: var(--button-secondary);
 	color: var(--heading-primary);
+}
+
+input[type="input"] + label span {
+	display: inline-block;
+	width: 100%;
+	background-color: var(--button-secondary);
+	color: var(--heading-primary);
+	text-transform: uppercase;
+	border-radius: 50%;
+	font-size: 1.25rem;
 }
