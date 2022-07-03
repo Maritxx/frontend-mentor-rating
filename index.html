@@ -20,7 +20,7 @@
 		<main id="my-page">
 			<section class="rating-component container">
 				<div class="rating-component__holder">
-					<div class="rating-component__form">
+					<div class="rating-component__form" id="voting-component">
 						<img src="img/icon-star.svg" alt="" aria-hidden="true">
 						<h1>How did we do?</h1>
 						<p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
@@ -37,11 +37,11 @@
 								<input type="radio" id="5" name="rating" value="5">
 								<label class="rating__styling" for="5"><span>5</span></label>
 							</div>
-								<button onclick="submitRating(rating.value)">Submit</button>
+								<button onclick="submitRating(rating.value);">Submit</button>
 						</form>
 					</div>
 
-					<div class="rating-component__submitted hidden">
+					<div class="rating-component__submitted hidden" id="submitted-response">
 						<img src="img/illustration-thank-you.svg" alt="" aria-hidden="true">
 						<div class="selected-rating__holder">
 							<span>You selected <output for="ratingForm" id="output"></output> out of 5. </span>
