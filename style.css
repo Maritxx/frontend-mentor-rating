@@ -126,11 +126,14 @@ button {
 	border-radius: 25px;
 	padding-top: 12px;
 	padding-bottom: 8px;
+	border: solid 2px transparent;
 }
 
 button:hover {
 	background-color: var(--heading-primary);
 	color: var(--button-secondary);
+	border: solid 2px transparent;
+}
 }
 
 /*Footer Styles*/
