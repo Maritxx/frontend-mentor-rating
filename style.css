@@ -34,6 +34,7 @@ p {
 	max-width: 375px;
 	width: 100%;
 	padding: 25px;
+	margin: 25px;
 	background-color: var(--bg-secondary);
 	border-radius: 20px;
 }
