@@ -16,7 +16,6 @@ body {
 }
 
 
-
 /*Font Styles*/
 h1 {
 	font-size: 1.5rem;
@@ -89,7 +88,7 @@ input[type="radio"] + label:hover span {
 	color: var(--heading-primary);
 }
 
-.submit-button__holder button {
+button {
 	display: inline-block;
 	width: 100%;
 	background-color: var(--button-secondary);
@@ -103,7 +102,7 @@ input[type="radio"] + label:hover span {
 	padding-bottom: 8px;
 }
 
-.submit-button__holder button:hover {
+button:hover {
 	background-color: var(--heading-primary);
 	color: var(--button-secondary);
 }
