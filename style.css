@@ -63,7 +63,7 @@ input[type="input"] {
 	display: none;
 }
 
-input[type="radio"] label span {
+label.rating__styling span {
 	display: inline-block;
 	padding: 25px;
 	cursor: pointer;
@@ -73,7 +73,7 @@ input[type="radio"] label span {
 	color: var(--text-primary);
 }
 
-input[type="radio"] label:checked span {
+label.rating__styling:checked span {
 	background-color: var(--button-primary);
 	color: var(--heading-primary);
 }
