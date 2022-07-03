@@ -1,5 +1,5 @@
 function submitRating(rating) {
-	divSelector = document.getElementsByClassName('rating-component__form');
+	divSelector = document.getElementByClassName('rating-component__form');
 	divResponse = document.getElementByClassName('rating-component__submitted');
 	ratingOutput = document.getElementById('ratingOutput');
 
