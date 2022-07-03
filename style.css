@@ -74,14 +74,16 @@ p {
 }
 
 .selected-rating__holder span {
-	padding: 5px;
+	padding: 5px 20px;
 	color: var(--button-secondary);
 	font-size: 0.9375rem;
 	background-color: var(--bg-tertiary);
-	margin-bottom: 30px;
 	border-radius: 20px;
 }
 
+.selected-rating__holder {
+	padding-bottom: 30px;
+}
 
 /*Radio Button Styling*/
 input[type="radio"] {
