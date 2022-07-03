@@ -58,6 +58,28 @@ p {
 	padding-bottom: 30px;
 }
 
+/*Submitted Styling*/
+.rating-component__submitted {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.rating-component__submitted img {
+	padding-bottom: 30px;
+	padding-top: 10px;
+	display: block;
+}
+
+.selected-rating__holder span {
+	padding: 5px;
+	color: var(--button-secondary);
+	font-size: 0.9375rem;
+	background-color: var(--bg-tertiary);
+	margin-bottom: 30px;
+}
+
 
 /*Radio Button Styling*/
 input[type="radio"] {
