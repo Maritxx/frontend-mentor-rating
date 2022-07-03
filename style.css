@@ -98,7 +98,7 @@ input[type="submit"] + label span {
 	padding: 15px;
 }
 
-input[type="submit"] + label :hover span {
+input[type="submit"] + label:hover span {
 	background-color: var(--heading-primary);
 	color: var(--button-secondary);
 }
