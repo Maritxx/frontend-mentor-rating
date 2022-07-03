@@ -69,10 +69,11 @@ input[type="radio"] + label span {
 	cursor: pointer;
 	border-radius: 50%;
 	background-color: var(--bg-tertiary);
-	font-size: 1.25rem;
 	color: var(--text-primary);
+	font-size: 0.9375rem;
 	width: 50px;
 	height: 50px;
+	text-align: center;
 }
 
 input[type="radio"]:checked + label span {
@@ -90,8 +91,14 @@ input[type="submit"] + label span {
 	width: 100%;
 	background-color: var(--button-secondary);
 	color: var(--heading-primary);
+	font-size: 0.9375rem;
 	text-transform: uppercase;
-	border-radius: 50%;
-	font-size: 1.25rem;
+	text-align: center;
+	border-radius: 25px;
 	padding: 15px;
+}
+
+input[type="submit"] + label :hover span {
+	background-color: var(--heading-primary);
+	color: var(--button-secondary);
 }
