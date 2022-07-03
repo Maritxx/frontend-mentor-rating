@@ -20,11 +20,11 @@
 		<main id="my-page">
 			<section class="rating-component container">
 				<div class="rating-component__holder">
-					<div class="rating-component__content">
+					<div class="rating-component__form">
 						<img src="img/icon-star.svg" alt="" aria-hidden="true">
 						<h1>How did we do?</h1>
 						<p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-						<form action="rating_post.php" method="post">
+						<form onsubmit="return false" id="ratingForm">
 							<div class="rating-button__holder">
 								<input type="radio" id="1" name="rating" value="1">
 								<label class="rating__styling" for="1"><span>1</span></label>
@@ -37,11 +37,18 @@
 								<input type="radio" id="5" name="rating" value="5">
 								<label class="rating__styling" for="5"><span>5</span></label>
 							</div>
-							<div class="submit-button__holder">
-								<input type="submit" value="submit">
-								<label for="submit"><span>Submit</span></label>
+							<div class="submit-button__holder hidden">
+								<button onclick="submitRating(rating.value);">Submit</button>
 							</div>
 						</form>
+					</div>
+					<div class="rating-component__submitted">
+						<img src="img/illustration-thank-you.svg" alt="" aria-hidden="true">
+						<div class="selected-rating__holder">
+							<span>You selected <output for="ratingForm" id="ratingOutput"> out of 5. </span>
+						</div>
+						<h1>Thank you!</h1>
+						<p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>	
 					</div>
 				</div>
 			</section>

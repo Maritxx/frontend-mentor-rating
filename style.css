@@ -11,6 +11,10 @@ body {
 	min-height: calc(100vh - 31px);
 }
 
+.hidden {
+	display: none !important;
+}
+
 
 
 /*Font Styles*/
@@ -40,11 +44,11 @@ p {
 	justify-content: space-between;
 }
 
-.rating-component__content p, h1 {
+.rating-component__form p, h1 {
 	padding-bottom: 20px;
 }
 
-.rating-component__content img {
+.rating-component__form img {
 	background-color: var(--bg-tertiary);
 	margin-bottom: 30px;
 	padding: 15px;
@@ -58,10 +62,6 @@ p {
 
 /*Radio Button Styling*/
 input[type="radio"] {
-	display: none;
-}
-
-input[type="submit"] {
 	display: none;
 }
 
@@ -89,7 +89,7 @@ input[type="radio"] + label:hover span {
 	color: var(--heading-primary);
 }
 
-input[type="submit"] + label span {
+.submit-button__holder button {
 	display: inline-block;
 	width: 100%;
 	background-color: var(--button-secondary);
@@ -103,12 +103,12 @@ input[type="submit"] + label span {
 	padding-bottom: 8px;
 }
 
-input[type="submit"] + label:hover span {
+.submit-button__holder button:hover {
 	background-color: var(--heading-primary);
 	color: var(--button-secondary);
 }
 
-
+submit-button__holder
 
 /*Footer Styles*/
 .attribution {
