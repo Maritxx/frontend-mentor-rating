@@ -44,10 +44,10 @@ p {
 }
 
 .rating-component__content img {
-	width: 50px;
-	height: 50px;
 	background-color: var(--bg-tertiary);
 	margin-bottom: 40px;
+	padding: 25px;
+	border-radius: 50%;
 }
 
 .rating-button__holder {
@@ -71,6 +71,7 @@ input[type="radio"] + label span {
 	background-color: var(--bg-tertiary);
 	color: var(--text-primary);
 	font-size: 0.9375rem;
+	font-weight: 700;
 	width: 50px;
 	height: 50px;
 	text-align: center;
@@ -93,16 +94,18 @@ input[type="submit"] + label span {
 	background-color: var(--button-secondary);
 	color: var(--heading-primary);
 	font-size: 0.9375rem;
+	font-weight: 700;
 	text-transform: uppercase;
 	text-align: center;
 	border-radius: 25px;
-	padding: 15px;
+	padding: 10px;
 }
 
 input[type="submit"] + label:hover span {
 	background-color: var(--heading-primary);
 	color: var(--button-secondary);
 }
+
 
 
 /*Footer Styles*/
